@@ -1,0 +1,23 @@
+
+<div class='row detailFix'>
+  <div class='col-md-4 imageFix'>
+  <img ng-src="{{view.detailData.Poster}}" alt="poster" />
+  </div>
+  <div class='col-md-7 detailP'>
+    <h1>{{view.detailData.Title}}
+      <span class='pull-right'>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true">
+
+      </span> {{view.detailData.imdbRating}}
+        <small id='colorChange'>/ 10</small>
+    </span>
+    </h1>
+    <small> {{view.detailData.Rated}} |</small>
+    <small> {{view.detailData.Runtime}}  |</small>
+    <small> {{view.detailData.Genre}} |</small>
+    <small> {{view.detailData.Released}}  |</small>
+    <p> {{view.detailData.Plot}} </p>
+    <p> Director: {{view.detailData.Director}} </p>
+    <p> Actors: {{view.detailData.Actors}} </p>
+  </div>
+</div>

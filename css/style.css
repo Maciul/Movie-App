@@ -1,0 +1,51 @@
+header {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background-color: #589fa7;
+}
+
+.brandFix {
+  height: auto;
+  padding: 5px;
+}
+
+#jumbotron {
+    background-color: #3d4c67;
+    color: whitesmoke;
+}
+
+.fix {
+  min-height: 600px;
+  border: 2px solid whitesmoke;
+  position: relative;
+  background-color: #589fa7;
+}
+
+.moviePoster img {
+  height: 450px;
+}
+
+.captionFix {
+  position: absolute;
+  bottom: 20;
+}
+
+.detailFix {
+  color: #05101b;
+}
+
+.detailP>p {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.imageFix>img {
+  height: 450px;
+}
+
+#colorChange {
+  color: #05101b;
+}

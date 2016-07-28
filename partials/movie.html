@@ -1,0 +1,11 @@
+<h2> Movies: </h2>
+
+<div class='col-sm-6 col-md-4' ng-repeat='movie in view.movieData'>
+  <div class='thumbnail fix imageFix'>
+    <img class='responsive' ng-src="{{movie.Poster}}" alt="poster" />
+    <div class='caption captionFix'>
+      <h3>{{movie.Title}}</h3>
+      <p><a ui-sref='detail({ id: movie.imdbID})' class='btn btn-danger'>Details</a></p>
+    </div>
+  </div>
+</div>
